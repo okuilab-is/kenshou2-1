@@ -1,0 +1,8 @@
+#!/bin/bash
+chmod 755 gcc
+chmod 755 endss
+chmod 755 gitss
+git config --local user.name ep
+git config --local user.email ep16018@sti.chubu.ac.jp
+git branch $USER
+git checkout $USER
