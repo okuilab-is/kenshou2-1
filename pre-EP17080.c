@@ -6,8 +6,10 @@ int main(void){
   x3=0;
   for(i=1;i<n;i++){
     x=x*x1;
-    x2=x1%m;
-    x3=x3+x2;
+    if(x%m > 0){
+      x2=x%m;
+      x=1;
+    }
   }
   printf("%ld\n",x);
   return 0;
