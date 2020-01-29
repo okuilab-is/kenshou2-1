@@ -1,0 +1,51 @@
+   106	15:06	vi test.c
+   107	15:07	gcc test.c
+   108	15:07	clear
+   109	15:28	touch pre-ep17112.c
+   110	15:28	vi pre-ep17112.c
+   111	15:33	gcc pre-ep17112.c
+   112	15:34	vi pre-ep17112.c
+   113	15:34	gcc pre-ep17112.c
+   114	15:34	vi pre-ep17112.c
+   115	15:35	gcc pre-ep17112.c
+   116	15:35	vi pre-ep17112.c
+   117	15:37	gcc pre-ep17112.c
+   118	15:38	a.out
+   119	15:38	vi pre-ep17112.c
+   120	15:39	gcc pre-ep17112.c
+   121	15:39	vi pre-ep17112.c
+   122	15:39	gcc pre-ep17112.c
+   123	15:39	a.out
+   124	15:41	vi pre-ep17112.c
+   125	15:42	gcc pre-ep17112.c
+   126	15:42	a.out
+   127	15:42	vi pre-ep17112.c
+   128	15:45	gcc pre-ep17112.c
+   129	15:45	a.out
+   130	15:45	a.out
+   131	15:46	vi pre-ep17112.c
+   132	15:48	gcc pre-ep17112.c
+   133	15:48	a.out
+   134	15:48	vi pre-ep17112.c
+   135	15:51	gcc pre-ep17112.c
+   136	15:51	a.out
+   137	15:51	vi pre-ep17112.c
+   138	15:54	gcc pre-ep17112.c
+   139	15:54	a.out
+   140	15:54	vi pre-ep17112.c
+   141	15:55	gcc pre-ep17112.c
+   142	15:55	a.out
+   143	15:56	vi pre-ep17112.c
+   144	15:57	gcc pre-ep17112.c
+   145	15:57	a.out
+   146	15:57	vi pre-ep17112.c
+   147	15:58	gcc pre-ep17112.c
+   148	15:58	a.out
+   149	15:58	vi pre-ep17112.c
+   150	15:59	gcc pre-ep17112.c
+   151	15:59	a.out
+   152	15:59	a.out
+   153	15:59	a.out
+   154	15:59	a.out
+   155	16:00	cat info
+   156	16:00	history > his-$USER
