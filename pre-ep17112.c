@@ -5,7 +5,7 @@ int main(){
 		  scanf("%ld%ld%ld", &x, &n, &m);
         for(i=0;i++;i<n){
 					 ans=ans*x;
-					 ans=ans%m;
+					 if(ans>m) ans=ans%m;
 		  }		 
 		  printf("%ld\n", ans);
 }
