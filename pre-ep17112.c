@@ -1,9 +1,11 @@
 #include <stdio.h>
-#include <math.h>
 
 int main(){
-		  long int x,m,n,ans;
+		  long int x,m,n,ans,i;
 		  scanf("%ld%ld%ld", &x, &n, &m);
-		  ans=power(x,n);
-		  printf("%ld", ans);
+		  ans=1;
+		  for(i=0;i++;i<n){
+					 ans=ans*x;
+		  }
+		  printf("%ld", ans%m);
 }
