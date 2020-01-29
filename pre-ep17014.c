@@ -17,7 +17,7 @@ int main (void){
   printf("%ld\n",am);
   */
   long x,y=1,n,m,i;
-  scanf("%ld %ld %ld"&x,&n,&m);
+  scanf("%ld %ld %ld",&x,&n,&m);
   for(i=0;i<n;i++){
     y=y*x;
     y=y%m;
