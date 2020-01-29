@@ -5,8 +5,9 @@ int main(void){
   scanf("%ld %ld %ld",&x,&n,&m);
   for(i=0,i<n,i++){
     x=x*x;
-    x2+=x!m;
+    x2=x/m;
   }
   
   printf("%ld",x2);
+  return 0;
 }
