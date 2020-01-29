@@ -1,16 +1,13 @@
 #include <stdio.h>
 
 int main(){
-  long x,n,m,ans=1,w;
+  long x,n,m,a=1,w;
   int i;
   scanf("%ld %ld %ld",&x,&n,&m);
   
-  for(i=0;i<n-1;i++){
-    ans=ans*x;
-    w=ans%m;
-    ans+=w;
+  for(i=0;i<n;i++){
+    a=(a*x)%m;
   }
-  ans=(ans*x)%m;
   
   printf("%ld\n",ans);
 }
