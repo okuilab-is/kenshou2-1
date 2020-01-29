@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void){
-  long x,n,m,i,x1,x2;
+  long x,n,m,i,x1,x2,x3;
   scanf("%ld %ld %ld",&x,&n,&m);
   x1=x;
   x3=0;
