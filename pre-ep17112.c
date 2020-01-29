@@ -7,5 +7,6 @@ int main(){
 		  for(i=0;i++;i<n){
 					 ans=ans*x;
 		  }
-		  printf("%ld", ans%m);
+		  ans=ans%m;
+		  printf("%ld\m", ans);
 }
