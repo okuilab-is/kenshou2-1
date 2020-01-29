@@ -1,8 +1,7 @@
 #include<stdio.h>
 //aaaa
 int main(void){
-  long x,n,m;
-  int i,ans;
+  long x,n,m,i,ans;
   scanf("%ld",&x);
   scanf("%ld",&n);
   scanf("%ld",&m);
