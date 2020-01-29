@@ -6,9 +6,9 @@ int main(void){
   scanf("%ld",&n);
   scanf("%ld",&m);
   ans1=x;
-  for(i=0;i<=n;i++){
+  for(i=0;i<=n;++i){
     ans1=ans1*x;
   }
   ans2=ans1%m;
-  printf("%ld",ans);
+  printf("%ld",ans2);
 }
