@@ -8,7 +8,7 @@ int main(void){
   ans1=x;
   for(i=1;i<=n;++i){
     ans1=ans1*x;
-    if(ans>=m) ans2=ans1%m;
+    if(ans1>=m) ans2=ans1%m;
     else ans2=ans1;
   }
   printf("%ld\n",ans2);
