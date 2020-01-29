@@ -2,12 +2,12 @@
 #include<math.h>
 
 int main(){
-  long a,b=1,x,n,m;//long int 型
+  long b=1,x,n,m;//long int 型
   int i;
   scanf("%ld %ld %ld",&x,&n,&m);
   
   for(i=0;i<n;i++){
-    b=b*a;
+    b=b*x;
     if(m<b){
       b=b%m;
     }
