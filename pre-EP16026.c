@@ -8,7 +8,7 @@ int main(void){
   ans1=x;
   for(i=0;i<=n;++i){
     ans1=ans1*x;
+    ans2=ans1%m;
   }
-  ans2=ans1%m;
-  printf("%ld",ans2);
+  printf("%ld/n",ans2);
 }
