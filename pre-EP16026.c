@@ -5,9 +5,7 @@ int main(void){
   int i,ans;
   scanf("%ld",&x);
   ans=x;
-  for(i=0.0,i<=n,++i;){
-    ans=ans*x;
-  }
+  for(i=0.0,i<=n,++i)  ans=ans*x;
   ans=ans%m;
   printf("%ld",x);
 }
