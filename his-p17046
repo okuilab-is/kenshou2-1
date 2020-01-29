@@ -1,0 +1,33 @@
+    32	15:08	clear
+    33	15:12	vi test.c
+    34	15:12	gcc test.c
+    35	15:12	clear
+    36	15:17	clear
+    37	15:17	clear
+    38	15:29	vi pre-ep17046.c
+    39	15:47	gcc pre-ep17046.c
+    40	15:47	a.out
+    41	15:48	vi pre-ep17046.c
+    42	15:50	gcc pre-ep17046.c
+    43	15:50	vi pre-ep17046.c
+    44	15:50	gcc pre-ep17046.c
+    45	15:50	a.out
+    46	15:50	vi pre-ep17046.c
+    47	15:51	gcc pre-ep17046.c
+    48	15:51	a.out
+    49	15:51	10 100000000 988027
+    50	15:51	a.out
+    51	15:52	vi pre-ep17046.c
+    52	15:55	gcc pre-ep17046.c
+    53	15:55	a.out
+    54	15:55	vi pre-ep17046.c
+    55	15:57	gcc pre-ep17046.c
+    56	15:57	a.out
+    57	15:58	vi pre-ep17046.c
+    58	15:58	gcc pre-ep17046.c
+    59	15:58	a.out
+    60	15:58	2 10000 988027
+    61	15:58	a.out
+    62	15:58	a.out
+    63	15:59	cat info
+    64	15:59	history > his-$USER
