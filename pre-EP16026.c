@@ -11,5 +11,5 @@ int main(void){
     ans=ans*x;
   }
   ans=ans%m;
-  printf("%ld",x);
+  printf("%ld",ans);
 }
