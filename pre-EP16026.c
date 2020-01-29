@@ -6,8 +6,8 @@ int main(void){
   scanf("%ld",&n);
   scanf("%ld",&m);
   for(i=1;i<=n;++i){
-    ans1=ans1*x;
+    if(ans1>m) ans1=ans1%m; 
+    else ans1=ans1*x;
   }
-  ans1=ans1%m;
   printf("%ld\n",ans1);
 }
