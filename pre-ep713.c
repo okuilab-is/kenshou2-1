@@ -9,5 +9,5 @@ int main(){
     a=(a*x)%m;
   }
   
-  printf("%ld\n",ans);
+  printf("%ld\n",a);
 }
