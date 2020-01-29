@@ -8,10 +8,8 @@ int main(void){
   ans1=x;
   for(i=1;i<=n;++i){
     ans1=ans1*x;
-    ans2=ans1%m;
-    //it(<m)
-    //ans3=ans3+ans2;
+    if(ans>=m) ans2=ans1%m;
+    else ans2=ans1;
   }
-  //ans3=ans3%m;
   printf("%ld\n",ans2);
 }
