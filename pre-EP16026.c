@@ -1,4 +1,4 @@
-#include<stdio>
+#include<stdio.h>
 //aaaa
 int main(void){
   long x,n,m;
