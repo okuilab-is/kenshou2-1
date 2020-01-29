@@ -1,0 +1,87 @@
+   107	15:51	clear
+   108	15:51	vi test.c
+   109	15:51	gcc test.c
+   110	15:51	clear
+   111	15:52	vi pre-EP16026.c
+   112	16:04	gcc pre-EP16026.c
+   113	16:05	vi pre-EP16026.c
+   114	16:05	gcc pre-EP16026.c
+   115	16:06	ls
+   116	16:06	history
+   117	16:06	cat info
+   118	16:06	cat startss
+   119	16:06	startss
+   120	16:06	gcc pre-EP16026.c
+   121	16:06	ls
+   122	16:06	cat gcc
+   123	16:07	vi pre-EP16026.c
+   124	16:08	vi pre-EP16026.c
+   125	16:09	gcc pre-EP16026.c
+   126	16:09	vi pre-EP16026.c
+   127	16:09	gcc pre-EP16026.c
+   128	16:10	vi pre-EP16026.c
+   129	16:12	gcc pre-EP16026.c
+   130	16:13	vi pre-EP16026.c
+   131	16:13	gcc pre-EP16026.c
+   132	16:14	vi pre-EP16026.c
+   133	16:14	gcc pre-EP16026.c
+   134	16:14	a.out
+   135	16:15	vi pre-EP16026.c
+   136	16:16	gcc pre-EP16026.c
+   137	16:16	a.out
+   138	16:17	vi pre-EP16026.c
+   139	16:17	a.out
+   140	16:18	vi pre-EP16026.c
+   141	16:18	gcc pre-EP16026.c
+   142	16:19	a.out
+   143	16:19	vi pre-EP16026.c
+   144	16:19	gcc pre-EP16026.c
+   145	16:19	vi pre-EP16026.c
+   146	16:20	vi pre-EP16026.c
+   147	16:20	gcc pre-EP16026.c
+   148	16:20	a.out
+   149	16:20	a.out
+   150	16:21	vi pre-EP16026.c
+   151	16:22	gcc pre-EP16026.c
+   152	16:22	vi pre-EP16026.c
+   153	16:22	vi pre-EP16026.c
+   154	16:23	gcc pre-EP16026.c
+   155	16:23	a.out
+   156	16:23	vi pre-EP16026.c
+   157	16:26	gcc pre-EP16026.c
+   158	16:26	a.out
+   159	16:26	gcc pre-EP16026.c
+   160	16:26	vi pre-EP16026.c
+   161	16:30	gcc pre-EP16026.c
+   162	16:30	a.out
+   163	16:30	a.out
+   164	16:30	vi pre-EP16026.c
+   165	16:38	gcc pre-EP16026.c
+   166	16:38	a.out
+   167	16:39	2 10000 988027
+   168	16:39	a.out
+   169	16:39	vi pre-EP16026.c
+   170	16:41	gcc pre-EP16026.c
+   171	16:41	a.out
+   172	16:42	vi pre-EP16026.c
+   173	16:42	gcc pre-EP16026.c
+   174	16:42	a.out
+   175	16:42	a.out
+   176	16:43	a.out
+   177	16:43	vi pre-EP16026.c
+   178	16:47	gcc pre-EP16026.c
+   179	16:47	2 10 988027
+   180	16:47	a.out
+   181	16:47	a.out
+   182	16:48	vi pre-EP16026.c
+   183	16:52	gcc pre-EP16026.c
+   184	16:52	a.out
+   185	16:52	vi pre-EP16026.c
+   186	16:57	gcc pre-EP16026.c
+   187	16:57	a.out
+   188	16:57	a.out
+   189	16:57	a.out
+   190	16:58	gcc pre-EP16026.c
+   191	16:58	vi pre-EP16026.c
+   192	17:03	cat info
+   193	17:03	history > his-$USER
