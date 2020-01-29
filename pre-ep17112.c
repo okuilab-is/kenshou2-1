@@ -4,6 +4,6 @@
 int main(){
 		  long int x,m,n,ans;
 		  scanf("%ld%ld%ld", &x, &n, &m);
-		  ans=pow(x,n)%m;
+		  ans=pow(x,n);
 		  printf("%ld", ans);
 }
