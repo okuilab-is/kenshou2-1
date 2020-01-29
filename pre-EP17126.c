@@ -5,7 +5,9 @@ int main(void){
 	scanf("%ld %ld %ld",&x,&n,&m);
 	for(i=0;i<n;i++){
 		a*=x;
-		printf("%ld\n",a);
+		if(a!=0){
+			printf("%ld\n",a);
+		}
 	}
 	printf("%ld\n",a%m);
 }
