@@ -1,0 +1,16 @@
+   108	15:08	clear
+   109	15:09	clear
+   110	15:11	vi test.c
+   111	15:11	gcc test.c
+   112	15:11	clear
+   113	15:28	vi pre-ep17008.c
+   114	15:48	gcc pre-ep17008.c
+   115	15:48	a.out
+   116	15:48	a.out
+   117	15:49	a.out
+   118	15:49	a.out
+   119	15:56	a.out
+   120	15:56	a.out
+   121	15:56	a.out
+   122	15:58	cat info
+   123	15:58	history > his-$USER
