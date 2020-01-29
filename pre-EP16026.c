@@ -1,14 +1,14 @@
 #include<stdio.h>
 //aaaa
 int main(void){
-  long x,n,m,i,ans;
+  long x,n,m,i,ans1,ans2;
   scanf("%ld",&x);
   scanf("%ld",&n);
   scanf("%ld",&m);
-  ans=x;
+  ans1=x;
   for(i=0;i<=n;i++){
-    ans=ans*x;
+    ans1=ans1*x;
   }
-  ans=ans%m;
+  ans2=ans1%m;
   printf("%ld",ans);
 }
