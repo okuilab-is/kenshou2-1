@@ -6,6 +6,7 @@ int main(void){
   x3=0;
   for(i=1;i<n;i++){
     x=x*x1;
+    printf("%ld",x);
     if(x%m > 0){
       x2=x%m;
       x=x/m;
