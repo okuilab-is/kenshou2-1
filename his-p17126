@@ -1,0 +1,36 @@
+   106	15:10	vi test.c
+   107	15:10	gcc test.c
+   108	15:10	clear
+   109	15:28	vi pre-EP17126.c
+   110	15:31	gcc pre-EP17126.c
+   111	15:31	vi pre-EP17126.c
+   112	15:31	gcc pre-EP17126.c
+   113	15:32	vi pre-EP17126.c
+   114	15:32	gcc pre-EP17126.c
+   115	15:32	vi pre-EP17126.c
+   116	15:34	gcc pre-EP17126.c
+   117	15:35	a.out
+   118	15:35	vi pre-EP17126.c
+   119	15:35	gcc pre-EP17126.c
+   120	15:35	a.out
+   121	15:35	vi pre-EP17126.c
+   122	15:36	a.out
+   123	15:36	gcc pre-EP17126.c
+   124	15:36	a.out
+   125	15:36	https://hackmd.io/@cl6XrIXQRm6VUQ-q_xsaCQ/rkoxuMh5r
+   126	15:37	a.out
+   127	15:37	vi pre-EP17126.c
+   128	15:38	gcc pre-EP17126.c
+   129	15:38	a.out
+   130	15:38	vi pre-EP17126.c
+   131	15:39	gcc pre-EP17126.c
+   132	15:39	a.out
+   133	15:39	a.out
+   134	15:44	vi pre-EP17126.c
+   135	15:45	gcc pre-EP17126.c
+   136	15:45	a.out
+   137	15:45	gcc pre-EP17126.c
+   138	15:45	vi pre-EP17126.c
+   139	15:47	vi pre-EP17126.c
+   140	15:48	cat info
+   141	15:48	history > his-$USER
