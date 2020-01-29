@@ -8,5 +8,5 @@ int main(){
 					 ans=ans*x;
 		  }
 		  ans=ans%m;
-		  printf("%ld\m", ans);
+		  printf("%ld\n", ans);
 }
