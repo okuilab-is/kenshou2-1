@@ -5,7 +5,7 @@ int main(void){
  a=x%m;
  b=a;
  n-=1;
- for(n;n>0:n--;){
+ for(n;n>0;n--){
   b=(b*a)%m;
  }
  printf("%ld",b);
