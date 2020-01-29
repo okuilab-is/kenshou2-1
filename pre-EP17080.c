@@ -8,6 +8,6 @@ int main(void){
     x2=x/m;
   }
   
-  printf("%ld",x2);
+  printf("%ld\n",x2);
   return 0;
 }
