@@ -5,10 +5,12 @@ int main(){
   int i;
   scanf("%ld %ld %ld",&x,&n,&m);
   
-  for(i=0;i<n;i++){
+  for(i=0;i<n-1;i++){
     ans=ans*x;
     w=ans%m;
     ans+=w;
   }
+  ans=(ans*x)%m;
+  
   printf("%ld\n",ans);
 }
