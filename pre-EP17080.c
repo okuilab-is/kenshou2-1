@@ -8,7 +8,7 @@ int main(void){
     x=x*x1;
     if(x%m > 0){
       x2=x%m;
-      x=1;
+      x=x/m;
     }
   }
   printf("%ld\n",x2);
