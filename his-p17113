@@ -1,0 +1,27 @@
+   106	15:21	vi test.c
+   107	15:21	gcc test.c
+   108	15:21	clear
+   109	15:28	vim pre-ep713.c
+   110	15:36	gcc pre-ep713.c
+   111	15:36	ls
+   112	15:36	./a.out
+   113	15:37	vim pre-ep713.c
+   114	15:37	gcc pre-ep713.c
+   115	15:37	./a.out
+   116	15:37	vim pre-ep713.c
+   117	15:39	gcc pre-ep713.c
+   118	15:39	./a.out
+   119	15:39	./a.out
+   120	15:40	vim pre-ep713.c
+   121	15:42	gcc pre-ep713.c
+   122	15:42	./a.out
+   123	15:42	./a.out
+   124	15:42	vim pre-ep713.c
+   125	15:44	gcc pre-ep713.c
+   126	15:44	vim pre-ep713.c
+   127	15:44	gcc pre-ep713.c
+   128	15:44	./a.out
+   129	15:45	./a.out
+   130	15:45	./a.out
+   131	15:46	cat info
+   132	15:46	history > his-$USER
