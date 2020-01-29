@@ -6,9 +6,13 @@ int main(void){
  b=a;
  n-=1;
  while(n>0){
-  if(n%2==0) b=(b*b)%m;
-  else b=(b*b*a)%m;
-  n=n/2;
+  if(n%2==1){
+   b=(b*a)%m;
+   n-=1;
+  }else{
+   b=(b*b)%m;
+   n=n/2;
+  }
  }
 /*
  for(n;n>0;n--){
