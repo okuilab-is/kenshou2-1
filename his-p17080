@@ -1,0 +1,59 @@
+   106	15:14	vi test.c
+   107	15:14	gcc test.c
+   108	15:14	clear
+   109	15:28	vi pre-EP17080.c
+   110	15:41	gcc pre-EP17080.c
+   111	15:42	vi pre-EP17080.c
+   112	15:43	gcc pre-EP17080.c
+   113	15:43	vi pre-EP17080.c
+   114	15:43	gcc pre-EP17080.c
+   115	15:44	vi pre-EP17080.c
+   116	15:46	gcc pre-EP17080.c
+   117	15:46	a.out
+   118	15:46	a.out
+   119	15:47	vi pre-EP17080.c
+   120	15:47	gcc pre-EP17080.c
+   121	15:47	a.out
+   122	15:48	vi pre-EP17080.c
+   123	15:55	gcc pre-EP17080.c
+   124	15:55	a.out
+   125	15:56	a.out
+   126	15:56	a.out
+   127	15:56	vi pre-EP17080.c
+   128	15:57	gcc pre-EP17080.c
+   129	15:57	a.out
+   130	15:57	a.out
+   131	15:58	a.out
+   132	15:58	vi pre-EP17080.c
+   133	16:00	gcc pre-EP17080.c
+   134	16:00	vi pre-EP17080.c
+   135	16:05	gcc pre-EP17080.c
+   136	16:05	vi pre-EP17080.c
+   137	16:05	gcc pre-EP17080.c
+   138	16:05	a.out
+   139	16:06	vi pre-EP17080.c
+   140	16:08	gcc pre-EP17080.c
+   141	16:08	a.out
+   142	16:09	a.out
+   143	16:09	vi pre-EP17080.c
+   144	16:21	gcc pre-EP17080.c
+   145	16:21	a.out
+   146	16:21	a.out
+   147	16:21	vi pre-EP17080.c
+   148	16:22	a.out
+   149	16:22	gcc pre-EP17080.c
+   150	16:22	a.out
+   151	16:22	vi pre-EP17080.c
+   152	16:29	gcc pre-EP17080.c
+   153	16:29	a.out
+   154	16:30	vi pre-EP17080.c
+   155	16:32	gcc pre-EP17080.c
+   156	16:32	a.out
+   157	16:32	vi pre-EP17080.c
+   158	16:35	gcc pre-EP17080.c
+   159	16:35	a.out
+   160	16:36	vi pre-EP17080.c
+   161	16:37	gcc pre-EP17080.c
+   162	16:37	a.out
+   163	16:37	a.out
+   164	16:39	history > his-$USER
