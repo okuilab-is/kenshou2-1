@@ -1,5 +1,5 @@
 #include<stdio>
-
+//aaaa
 int main(void){
   long x,n,m;
   double i,ans;
