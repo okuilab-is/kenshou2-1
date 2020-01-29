@@ -9,6 +9,6 @@ int main(void){
     x2=x1%m;
     x3=x3+x2;
   }
-  printf("%ld\n",x3);
+  printf("%ld\n",x);
   return 0;
 }
