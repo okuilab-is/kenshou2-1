@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main (void){
-  long x,n,m,am=0,sum;
-  int i;
+  long x,n,m,i,am=0,sum;
   scanf("%ld %ld %ld",&x,&n,&m);
   if(n==0){
     sum=0;
@@ -13,6 +12,7 @@ int main (void){
       sum=sum*x;
     }
     am+=(sum-am)%m;
+    am=am%m;
   }
   printf("%ld\n",am);
 }
