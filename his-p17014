@@ -1,0 +1,40 @@
+   110	15:16	vi test.c
+   111	15:16	gcc test.c
+   112	15:17	clear
+   113	15:28	cat info
+   114	15:28	clear
+   115	15:30	emacs pre-ep17014.c
+   116	15:49	emacs pre-ep17014.c
+   117	15:50	gcc pre-ep17014.c
+   118	15:50	a.out
+   119	15:50	emacs pre-ep17014.c
+   120	15:51	gcc pre-ep17014.c
+   121	15:51	a.out
+   122	15:52	a.out
+   123	15:52	emacs pre-ep17014.c
+   124	15:53	gcc pre-ep17014.c
+   125	15:53	a.out
+   126	15:54	a.out
+   127	15:54	emacs pre-ep17014.c
+   128	15:59	gcc pre-ep17014.c
+   129	15:59	a.out
+   130	15:59	a.out
+   131	15:59	emacs pre-ep17014.c
+   132	16:08	gcc pre-ep17014.c
+   133	16:08	a.out
+   134	16:08	a.out
+   135	16:09	emacs pre-ep17014.c
+   136	16:11	gcc pre-ep17014.c
+   137	16:11	a.out
+   138	16:12	emacs pre-ep17014.c
+   139	16:28	gcc pre-ep17014.c
+   140	16:28	emacs pre-ep17014.c
+   141	16:28	gcc pre-ep17014.c
+   142	16:28	emacs pre-ep17014.c
+   143	16:28	gcc pre-ep17014.c
+   144	16:28	a.out
+   145	16:28	a.out
+   146	16:29	a.out
+   147	16:29	a.out
+   148	16:33	cat info
+   149	16:33	history > his-$USER
