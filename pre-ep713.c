@@ -3,13 +3,12 @@
 int main(){
   long x,n,m,ans=1,w;
   int i;
-  for(i=0;i<3;i++){
-    scanf("%ld",&x);
-  }
+  scanf("%ld %ld %ld",&x,&n,&m);
+  
   for(i=0;i<n;i++){
-    ans*=x;
+    ans=ans*x;
     w=ans%m;
     ans+=w;
   }
-  printf("%ld",ans);
+  printf("%ld\n",ans);
 }
