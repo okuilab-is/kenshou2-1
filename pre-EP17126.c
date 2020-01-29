@@ -6,5 +6,5 @@ int main(void){
 	for(i=0;i<n;i++){
 		a*=x;
 	}
-	printf("%ld",a%m);
+	printf("%ld\n",a%m);
 }
