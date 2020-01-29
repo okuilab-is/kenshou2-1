@@ -5,9 +5,12 @@ int main(){
   long a,b=1,x,n,m;//long int 型
   int i;
   scanf("%ld %ld %ld",&x,&n,&m);
-  a=x%m;
+  
   for(i=0;i<n;i++){
-    b*=a;
+    b=b*a;
+    if(m<b){
+      b=b%m;
+    }
   }
   printf("%ld \n",b);
 
