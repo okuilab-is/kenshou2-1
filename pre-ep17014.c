@@ -6,11 +6,11 @@ int main (void){
     sum=0;
   }else{
     sum=x;
-    for(i=0;i<n-1;i++){
+    for(i=0;i<n;i++){
       sum=sum*x;
       a=(sum-am)%m;
       am+=a;
     }
   }
-  printf("%ld",a);
+  printf("%ld\n",a);
 }
