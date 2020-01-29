@@ -5,10 +5,8 @@ int main(void){
  a=x%m;
  b=a;
  n-=1;
- while(n>0){
-  if(n%2==1) b=(b*b*a)%m;
-  else b=(b*b)%m;
-  n=n/2;
+ for(n;n>0:n--;){
+  b=(b*a)%m;
  }
  printf("%ld",b);
 }
