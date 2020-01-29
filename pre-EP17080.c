@@ -10,6 +10,8 @@ int main(void){
     if(x/m > 0){
       x2=x%m;
       x=x/m;
+    }else{
+      x2=x;
     }
   }
   printf("%ld\n",x2);
